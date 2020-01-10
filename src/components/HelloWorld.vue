@@ -1,79 +1,51 @@
 <template>
-  <div class="hello">
-    
-  <ul class="flex-container">
-    
-    <li class="flex-item item-1">
-      
-       Hello, I'm Viktoriia Bekk. <br>I'm a full-stack developer.
-    </li>
-    <li class="flex-item item-4"><img alt="Vue logo" src="../assets/logo2.png" /></li>
-   
-  </ul>
+  <div class="hello" style="background-image:url('background.jpg') ; background-size: 100% auto;">
 
-  <div class="alert alert-success alert-dismissible fade show" role="alert">
-    With Bootstrap!
-    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
+
+
+    <div class="row">
+      
+        <div class="col">
+          <div class="flex">
+          <h1>
+            Hello, I'm Viktoriia Bekk.<br>
+            I'm a full-stack developer.</h1>
+          </div>
+          <button type="button" class="btn btn-outline-info">
+            View my work <i class="mdi mdi-arrow-right"></i></button>
+
+
+        </div>
+        
+      
     </div>
-   
-  
+  </div>
+
+
+
+
+
 </template>
 
 <script>
-export default {
-  name: "HelloWorld"
-  
-};
+  export default {
+    name: "HelloWorld"
+
+  };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-.item-1 {
-   -webkit-box-flex: 3;
-    -moz-box-flex: 3;
-    -webkit-flex: 3 1 auto;
-    -ms-flex: 3 1 auto;
-    flex: 3 1 auto;
-}
-
-.item-4 {
-   -webkit-box-flex: 3;
-    -moz-box-flex: 3;
-    -webkit-flex: 3 1 auto;
-    -ms-flex: 3 1 auto;
-    flex: 3 1 auto;
-}
-
-.flex-item {
-  background: tomato;
-  padding: 0px;
-  width: auto;
-  height: auto;
-  margin-top: 10px;
-  border: 1px solid black;
-  
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-  
+  /* Base */
+  .hello {
+    height: -webkit-fill-available;
+    display: grid;
+    text-align: center;
+  }
+  .flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 </style>
