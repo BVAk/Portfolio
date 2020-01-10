@@ -1,30 +1,19 @@
 <template>
   <div class="hello" style="background-image:url('background.jpg') ; background-size: 100% auto;">
-
-
-
-    <div class="row">
-      
-        <div class="col">
+    <div class="overflow-wrap">
+      <div class="modal-wrap flex">
+        <section class="flex height-fix">
           <div class="flex">
-          <h1>
-            Hello, I'm Viktoriia Bekk.<br>
-            I'm a full-stack developer.</h1>
+            <h1>
+              Hello, I'm Viktoriia Bekk.<br>
+              I'm a full-stack developer.</h1>
+            <button type="button" class="btn btn-lg btn-outline-info">
+              View my work </button>
           </div>
-          <button type="button" class="btn btn-outline-info">
-            View my work <i class="mdi mdi-arrow-right"></i></button>
-
-
-        </div>
-        
-      
+        </section>
+      </div>
     </div>
   </div>
-
-
-
-
-
 </template>
 
 <script>
@@ -39,13 +28,17 @@
   /* Base */
   .hello {
     height: -webkit-fill-available;
-    display: grid;
     text-align: center;
-  }
-  .flex{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    resize: vertical;
+    overflow: auto;
+  }
+
+ .hell0 h1 {
+    margin: 0;
+    resize: vertical;
+    overflow: auto;
   }
 </style>
