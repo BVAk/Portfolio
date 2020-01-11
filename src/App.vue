@@ -1,8 +1,8 @@
 <template>
   <div id="app">
      <nav id="nav" class="navbar navbar-light sticky-top" style="background-color: #e3f2fd;">
-      <router-link class="float-left" to="/">Home </router-link> |
-      <router-link class="float-left" to="/project"> Projects</router-link>
+      <a class="float-left" href="#home">Home </a> |
+      <a class="float-left" href="#project"> Projects</a>
      </nav>
        <router-view />
   </div>
@@ -24,10 +24,10 @@
   a {
     font-weight: bold;
     color: lightblue;
-
-    &.router-link-exact-active {
-      color: blue;
-    }
   }
+
+  a:link {
+  text-decoration: none;
+}
 }
 </style>

@@ -8,7 +8,7 @@
               Hello, I'm <b>Viktoriia Bekk</b>.<br>
               I'm a full-stack web developer.</h1>
             <button type="button" class="btn btn-lg btn-outline-info">
-              <router-link class="float-left" to="/project"> View my work</router-link> </button>
+              <a class="float-left" href="#project"> View my work</a> </button>
           </div>
         </section>
       </div>
@@ -35,6 +35,9 @@
     resize: vertical;
     overflow: auto;
   }
+  a:link {
+  text-decoration: none;
+}
 
  .hello h1 {
     margin: 0;
