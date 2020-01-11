@@ -5,7 +5,9 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 Vue.config.productionTip = false;
-Vue.component("hello",require('./components/HelloWorld.vue').default)
+Vue.component("hello", require('./components/HelloWorld.vue'));
+Vue.component("proj", require('./components/Projects.vue'));
+
 new Vue({
   router,
   render: h => h(App)

@@ -1,32 +1,26 @@
 <template>
-  <div class="hello" style="background-image:url('background.jpg') ; background-size: 100% auto;">
+  <div class="proj" id="projectid">
     <div class="overflow-wrap">
       <div class="modal-wrap flex">
         <section class="flex height-fix">
           <div class="flex">
-            <h1>
-              Hello, I'm <b>Viktoriia Bekk</b>.<br>
-              I'm a full-stack web developer.</h1>
-            <button type="button" class="btn btn-lg btn-outline-info">
-              <router-link class="float-left" to="/project"> View my work</router-link> </button>
+
+            <h1>Projects</h1>
           </div>
         </section>
       </div>
     </div>
   </div>
 </template>
-
 <script>
   export default {
-    name: "HelloWorld"
-
+    name: "Projects"
   };
 </script>
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   /* Base */
-  .hello {
+  #projectid {
     height: -webkit-fill-available;
     text-align: center;
     display: flex;
@@ -36,10 +30,9 @@
     overflow: auto;
   }
 
- .hello h1 {
+ #projectid h1 {
     margin: 0;
     resize: vertical;
-    overflow: auto;
   }
   .flex{ font-size: 32pt;
     line-height: 36pt;    
