@@ -32,7 +32,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    resize: vertical;
+    
     overflow: auto;
   }
   a:link {
@@ -41,7 +41,7 @@
 
  .hello h1 {
     margin: 0;
-    resize: vertical;
+    
     overflow: auto;
   }
   .flex{ font-size: 32pt;
