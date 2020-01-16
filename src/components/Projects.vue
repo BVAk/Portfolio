@@ -86,7 +86,7 @@
     height: -webkit-fill-available;
     text-align: center;
 
-    margin: 15px;
+    margin:35px 15px;
     justify-content: center;
     font-family: "Avenir", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
