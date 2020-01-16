@@ -1,8 +1,21 @@
 <template>
   <div id="app">
-    <nav id="nav" class="navbar navbar-light sticky-top" style="background-color: #e3f2fd;">
-      <a class="float-left" href="#home">Home </a> |
-      <a class="float-left" href="#project"> Projects</a>
+    <nav  id="navbar" class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd;">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Projects</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <transition name="moveInUp">
       <router-view />
@@ -18,6 +31,9 @@
     text-align: center;
 
   }
+  a{
+    margin:auto;
+  }
   .moveInUp-leave-active{
   animation: moveInUp .3s ease-in;
 }
@@ -29,8 +45,6 @@
   transform: translateY(-400px);
  }
 }
-
-
 
   #nav {
     padding: 2%;
@@ -45,4 +59,5 @@
       text-decoration: none;
     }
   }
+
 </style>

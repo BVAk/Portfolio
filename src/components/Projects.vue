@@ -4,64 +4,76 @@
       <div class="modal-wrap flex">
         <section class="flex height-fix">
           <div class="flex">
-
             <h1>Projects</h1>
-            <div class="row justify-content">
-    <gallery :images="images" :index="index" @close="index = null"></gallery>
-    <div
-      class="image"
-      v-for="(image, imageIndex) in images"
-      :key="imageIndex"
-      @click="index = imageIndex"
-      :style="{ backgroundImage: 'url(' + image + ')', width: '300px', height: '200px' }"
-    ></div>
+          </div>
+        </section>
+      </div>
     </div>
-  </div>
-</section>
-</div>
-</div>
     <div class="row justify-content">
       <div class="col">
-        <h1>JavaLearn</h1>
-        <lingallery  :items="items" />
-        <p>The project is designed for distance learning. The site is written in PHP - Laravel framework,</p>
+        <h2>JavaLearn</h2>
+        <lingallery :width="600" :height="400" :items="items" />
+        <p>The project is designed for distance learning. The site is written in PHP - Laravel framework and
+          Javascript.
+        </p>
       </div>
       <div class="col">
-        <lingallery  :items="items" />
+        <h2>Yachting</h2>
+        <lingallery :width="600" :height="400" :items="items2" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h2>FitnessTime</h2>
+        <lingallery :width="600" :height="400" :items="items3" />
       </div>
     </div>
   </div>
 </template>
 <script>
   import Lingallery from 'lingallery';
-  import VueGallery from 'vue-gallery';
+
   export default {
     data() {
       return {
         items: [{
+          id: '0',
           src: 'javalearn.png',
-          thumbnail: 'javalearn.png',
-          caption: "JavaLearn"
+          thumbnail: 'javalearn.png'
         },
         {
+          id: '1',
           src: 'https://picsum.photos/600/400/?image=10',
           thumbnail: 'https://picsum.photos/64/64/?image=10'
         }
         ],
-        images: [
-         'javalearn.png',
-          'https://dummyimage.com/1600/ffffff/000000',
-          'https://dummyimage.com/1280/000000/ffffff',
-          'https://dummyimage.com/400/000000/ffffff',
-        ],
-        index: null
-     
+        items2: [{
+          id: '0',
+          src: 'yachting.png',
+          thumbnail: 'yachting.png'
+        },
+        {
+          id: '1',
+          src: 'https://picsum.photos/600/400/?image=10',
+          thumbnail: 'https://picsum.photos/64/64/?image=10'
+        }],
+        items3: [{
+          id: '0',
+          src: 'yachting.png',
+          thumbnail: 'yachting.png'
+        },
+        {
+          id: '1',
+          src: 'https://picsum.photos/600/400/?image=10',
+          thumbnail: 'https://picsum.photos/64/64/?image=10'
+        }
+        ]
+
+
       };
     },
     components: {
-      Lingallery,
-      
-      'gallery': VueGallery
+      Lingallery
 
     }
   }
@@ -76,22 +88,20 @@
 
     margin: 15px;
     justify-content: center;
-
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     
+
+
   }
-  .image {
-    float: left;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    border: 1px solid #ddc3c3;
-    margin: 5px;
-  }  
 
-  .flex {
-    font-size: 32pt;
-    line-height: 36pt;
-    font-family: "Raleway";
+  p {
+    text-align: left;
+  }
 
+  .col {
+    border: 1px solid lightblue;
+    margin: 10px;
   }
 </style>
