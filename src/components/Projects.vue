@@ -38,8 +38,8 @@
       return {
         items: [{
           id: '0',
-          src: 'javalearn.png',
-          thumbnail: 'javalearn.png'
+          src: 'javalearn.jpg',
+          thumbnail: 'javalearn.jpg'
         },
         {
           id: '1',
@@ -49,8 +49,8 @@
         ],
         items2: [{
           id: '0',
-          src: 'yachting.png',
-          thumbnail: 'yachting.png'
+          src: 'yachting.jpg',
+          thumbnail: 'yachting.jpg'
         },
         {
           id: '1',
@@ -59,8 +59,8 @@
         }],
         items3: [{
           id: '0',
-          src: 'yachting.png',
-          thumbnail: 'yachting.png'
+          src: 'fitnessmain.jpg',
+          thumbnail: 'fitnessmain.jpg'
         },
         {
           id: '1',
