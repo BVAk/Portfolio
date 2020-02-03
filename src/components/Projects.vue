@@ -1,6 +1,7 @@
 <template>
   <div class="proj" id="projectid">
     <div class="overflow-wrap">
+
       <div class="modal-wrap flex">
         <section class="flex height-fix">
           <div class="flex">
@@ -9,10 +10,12 @@
         </section>
       </div>
     </div>
+     <div v-lazy-container="{ selector: 'lingallery', error: 'error.png', loading: 'loading.gif' }">
     <div class="row justify-content">
       <div class="col">
+       
         <h2>JavaLearn</h2>
-        <lingallery :width="600" :height="400" :items="items" />
+        <lingallery :width="600" :height="400" :items="items"/>
         <p>The project is designed for distance learning. The site is written in PHP - Laravel framework and
           Javascript.
         </p>
@@ -29,79 +32,82 @@
       </div>
     </div>
   </div>
+  </div>
 </template>
 <script>
-  import Lingallery from 'lingallery';
+    import Lingallery from 'lingallery';
 
-  export default {
-    data() {
-      return {
-        items: [{
-          id: '0',
-          src: 'javalearn.jpg',
-          thumbnail: 'javalearn.jpg'
+    export default {
+        data() {
+            return {
+                items: [{
+                    id: '0',
+                    src: 'javalearn.jpg',
+                    thumbnail: 'javalearn.jpg'
+                }, {
+                    id: '1',
+                    src: 'https://picsum.photos/600/400/?image=10',
+                    thumbnail: 'https://picsum.photos/64/64/?image=10'
+                }],
+                items2: [{
+                    id: '0',
+                    src: 'yachting.jpg',
+                    thumbnail: 'yachting.jpg'
+                }, {
+                    id: '1',
+                    src: 'https://picsum.photos/600/400/?image=10',
+                    thumbnail: 'https://picsum.photos/64/64/?image=10'
+                }],
+                items3: [{
+                    id: '0',
+                    src: 'fitnessmain.jpg',
+                    thumbnail: 'fitnessmain.jpg'
+                }, {
+                    id: '1',
+                    src: 'https://picsum.photos/600/400/?image=10',
+                    thumbnail: 'https://picsum.photos/64/64/?image=10'
+                }]
+
+
+            };
         },
-        {
-          id: '1',
-          src: 'https://picsum.photos/600/400/?image=10',
-          thumbnail: 'https://picsum.photos/64/64/?image=10'
+        components: {
+            Lingallery
+
         }
-        ],
-        items2: [{
-          id: '0',
-          src: 'yachting.jpg',
-          thumbnail: 'yachting.jpg'
-        },
-        {
-          id: '1',
-          src: 'https://picsum.photos/600/400/?image=10',
-          thumbnail: 'https://picsum.photos/64/64/?image=10'
-        }],
-        items3: [{
-          id: '0',
-          src: 'fitnessmain.jpg',
-          thumbnail: 'fitnessmain.jpg'
-        },
-        {
-          id: '1',
-          src: 'https://picsum.photos/600/400/?image=10',
-          thumbnail: 'https://picsum.photos/64/64/?image=10'
-        }
-        ]
-
-
-      };
-    },
-    components: {
-      Lingallery
-
     }
-  }
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  /* Base */
-
-  #projectid {
-    height: -webkit-fill-available;
-    text-align: center;
-
-    margin:35px 15px;
-    justify-content: center;
-    font-family: "Avenir", Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    /* Base */
     
-
-
-  }
-
-  p {
-    text-align: left;
-  }
-
-  .col {
-    border: 1px solid lightblue;
-    margin: 10px;
-  }
+    #projectid {
+        height: -webkit-fill-available;
+        text-align: center;
+        margin: 35px 15px;
+        justify-content: center;
+        font-family: "Avenir", Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    p {
+        text-align: left;
+    }
+    
+    .col {
+        border: 1px solid lightblue;
+        margin: 10px;
+    }
+    
+    .lingalleryContainer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    figure {
+        width: 100%
+    }
 </style>

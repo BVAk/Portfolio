@@ -18,43 +18,45 @@
 </template>
 
 <script>
-  export default {
-    name: "HelloWorld"
+    export default {
+        name: "HelloWorld"
 
-  };
+    };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  /* Base */
-  .hello {
-    height: -webkit-fill-available;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* Base */
     
-    overflow: auto;
-    font-family: "Avenir", Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-
-  }
-  a:link {
-  text-decoration: none;
-}
-a{
-  font-size: 25px;
-}
-
- .hello h1 {
-    margin: 0;
-    overflow: auto;
-  }
-  .flex{ font-size: 32pt;
-    line-height: 36pt;    
-    font-family: "Raleway";
+    .hello {
+        height: -webkit-fill-available;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: auto;
+        font-family: "Avenir", Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-align: center;
+    }
     
-  }
+    a:link {
+        text-decoration: none;
+    }
+    
+    a {
+        font-size: 25px;
+    }
+    
+    .hello h1 {
+        margin: 0;
+        overflow: auto;
+    }
+    
+    .flex {
+        font-size: 32pt;
+        line-height: 36pt;
+        font-family: "Raleway";
+    }
 </style>
