@@ -55,8 +55,8 @@
                     thumbnail: 'yachting.jpg'
                 }, {
                     id: '1',
-                    src: 'https://picsum.photos/600/400/?image=10',
-                    thumbnail: 'https://picsum.photos/64/64/?image=10'
+                    src: 'yachting2.jpg',
+                    thumbnail: 'yachting2.jpg'
                 }],
                 items3: [{
                     id: '0',
@@ -64,8 +64,16 @@
                     thumbnail: 'fitnessmain.jpg'
                 }, {
                     id: '1',
-                    src: 'https://picsum.photos/600/400/?image=10',
-                    thumbnail: 'https://picsum.photos/64/64/?image=10'
+                    src: 'fitnessmain4.jpg',
+                    thumbnail: 'fitnessmain4.jpg'
+                }, {
+                    id: '2',
+                    src: 'fitnessmain3.jpg',
+                    thumbnail: 'fitnessmain3.jpg'
+                }, {
+                    id: '3',
+                    src: 'fitnessmain2.jpg',
+                    thumbnail: 'fitnessmain2.jpg'
                 }]
 
 
