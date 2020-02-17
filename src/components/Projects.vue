@@ -51,10 +51,14 @@
                 }],
                 items2: [{
                     id: '0',
+                    src: 'yachtingmain.jpg',
+                    thumbnail: 'yachtingmain.jpg'
+                }, {
+                    id: '1',
                     src: 'yachting.jpg',
                     thumbnail: 'yachting.jpg'
                 }, {
-                    id: '1',
+                    id: '2',
                     src: 'yachting2.jpg',
                     thumbnail: 'yachting2.jpg'
                 }],
