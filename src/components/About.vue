@@ -21,13 +21,14 @@
       <h3>PHP Developer</h3>
       <div class="row">
         <div class="col">
+          <font-awesome-icon :icon="['fas','mobile-alt']" width="20px" />
       <label>bekkviktoria55@gmail.com</label>
 
-      <label></label>
+      <a href="https://bitbucket.org/VikaBekk/">
+        <font-awesome-icon :icon="['fab', 'bitbucket']" width="20px" />https://bitbucket.org/VikaBekk</a>
     </div>
       <div class="col">
-        <i class="fa-phone"></i>
-<a href="tel:+380956289382">+380956289382</a>
+       <font-awesome-icon icon="mobile-alt" width="20px" /> <a href="tel:+380956289382">+380956289382</a>
         <label></label>
         <label></label>
       </div>
