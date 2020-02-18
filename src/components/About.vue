@@ -1,11 +1,6 @@
 <template>
   <div class="about" >
-  
-   
-  
-  
-    <div class="overflow-wrap">
-
+   <div class="overflow-wrap">
       <div class="modal-wrap flex">
         <section class="flex height-fix">
           <div class="flex">
@@ -21,11 +16,13 @@
       <h3>PHP Developer</h3>
       <div class="row">
         <div class="col">
-          <font-awesome-icon :icon="['fas','mobile-alt']" width="20px" />
-      <label>bekkviktoria55@gmail.com</label>
+          <div class="row"> <font-awesome-icon :icon="['fas','reply-all']" width="20px" /><a href="mailto:bekkviktoria55@gmail.com">bekkviktoria55@gmail.com</a></div>
+      <div class="row"><font-awesome-icon :icon="['fab', 'bitbucket']" width="20px" /><a href="https://bitbucket.org/VikaBekk/">
+        https://bitbucket.org/VikaBekk</a></div>
 
-      <a href="https://bitbucket.org/VikaBekk/">
-        <font-awesome-icon :icon="['fab', 'bitbucket']" width="20px" />https://bitbucket.org/VikaBekk</a>
+        <div class="row"><font-awesome-icon :icon="['fab', 'github']" width="20px" /><a href="https://github.com/BVAk">
+            https://github.com/BVAk</a></div>
+       
     </div>
       <div class="col">
        <font-awesome-icon icon="mobile-alt" width="20px" /> <a href="tel:+380956289382">+380956289382</a>
