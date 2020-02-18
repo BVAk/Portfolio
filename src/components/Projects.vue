@@ -47,23 +47,25 @@
 
       </div>
     </div>
-    <div class="row">
+    </div>
+    <div class="row justify-content">
       <div class="col" id="proj">
+       
         <h2>FitnessTime</h2>
-        <lingallery :width="600" :height="400" :items="items3" class="m-2" />
+        <lingallery :width="600" :height="400" :items="items3" class="m-2"/>
 
-        <p class="text-justify ">The topic of the site is the information system of the fitness club. In the framework of this work, an analysis of the existing systems of fitness clubs was carried out, and the metrics used in practice for assessing the activities of fitness clubs were described
-         
-       </p><div class="row p-2"> <p class="m-3">Skills:</p>
+        <p class="text-justify">The topic of the site is the information system of the fitness club. In the framework of this work, an analysis of the existing systems of fitness clubs was carried out, and the metrics used in practice for assessing the activities of fitness clubs were described </p><div class="row p-2"> <p class="m-3">Skills:</p>
       <button type="button" class="btn btn-primary btn-sm m-2">Laravel</button>
       <button type="button" class="btn btn-primary btn-sm m-2">JavaScript</button>
       <button type="button" class="btn btn-primary btn-sm m-2">MySQL</button>
-      </div>
-      </div>
+    </div>
       
-      <div class="col" >
-        </div>
+        
       </div>
+      <div class="col" id="proj">
+       
+    </div>
+
     </div>
   </div>
   </div>
