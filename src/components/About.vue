@@ -43,6 +43,30 @@
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col">
+          <div class="skills">
+            <div class="row" float="center"><h2>Skills</h2></div>
+          
+          <div class="row">
+            <div class="col">PHP</div>
+            <div class="col">Laravel</div>
+            <div class="col">Sql</div>
+          </div>
+          <div class="row">
+            <div class="col">GIT</div>
+            <div class="col">Linux</div>
+            <div class="col">JavaScript</div>
+          </div>
+          
+          <div class="row">
+            <div class="col">Vue.js</div>
+            <div class="col"></div>
+            <div class="col"></div>
+          </div>
+        </div>
+        </div>
+        </div>
       </div>
       </div>
    
@@ -107,5 +131,28 @@
         user-select: none;
         box-sizing: border-box;
         display: block;
+    }
+    
+    .skills {
+        background: #4cab96;
+        transition: background 0.2s ease-in-out;
+        content: '';
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 50%;
+        height: 2px;
+    }
+    
+    .skills h2 {
+        display: block;
+        background: #fff;
+        padding: 0;
+        color: #4cab96;
+        font-family: Helvetica;
+        margin: 0;
+        overflow-y: visible;
+        text-align: center;
+        float: inherit;
     }
 </style>
