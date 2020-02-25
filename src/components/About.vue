@@ -19,12 +19,13 @@
           <div class="row">
             
             <div id="contact">
+              <div class="row">
               <div class="col">
-                <div class="row"> <font-awesome-icon :icon="['fab','linkedin']" width="20px" /><a href="https://www.linkedin.com/in/viktoriabekk-a79595147/">https://www.linkedin.com/in/viktoriabekk</a>
+                <div class="row"> <font-awesome-icon :icon="['fab','linkedin']" width="20px" /><a href="https://www.linkedin.com/in/viktoriabekk-a79595147/">LinkedIn</a>
                 </div>
-                <div class="row"><font-awesome-icon :icon="['fab', 'bitbucket']" width="20px" /><a href="https://bitbucket.org/VikaBekk/">https://bitbucket.org/VikaBekk</a>
+                <div class="row"><font-awesome-icon :icon="['fab', 'bitbucket']" width="20px" /><a href="https://bitbucket.org/VikaBekk/">Bitbucket</a>
                 </div>
-                <div class="row"><font-awesome-icon :icon="['fab', 'github']" width="20px" /><a href="https://github.com/BVAk">https://github.com/BVAk</a>
+                <div class="row"><font-awesome-icon :icon="['fab', 'github']" width="20px" /><a href="https://github.com/BVAk">GitHub</a>
                 </div>
               </div>
               <div class="col">
@@ -32,15 +33,18 @@
                 </div>
                 <div class="row"> <font-awesome-icon :icon="['far','envelope']" width="20px" /><a href="mailto:bekkviktoria55@gmail.com">bekkviktoria55@gmail.com</a>
                 </div>
+                <div class="row"></div>
+
+              </div>
               </div>
             </div>
           </div>
         </div>
         </div>
-          <div class="col">
-            <div class="img">
+          
+            <div id="img">
               <img src="me.jpg" width="200px">
-            </div>
+          
           </div>
         </div>
         <div class="row">
@@ -131,6 +135,7 @@
         user-select: none;
         box-sizing: border-box;
         display: block;
+        padding-right: 0;
     }
     
     .skills {
@@ -154,5 +159,10 @@
         overflow-y: visible;
         text-align: center;
         float: inherit;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        transition: color 0.1s ease-in-out;
     }
 </style>
