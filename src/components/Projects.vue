@@ -11,8 +11,8 @@
       </div>
     </div>
      <div v-lazy-container="{ selector: 'lingallery', error: 'error.png', loading: 'loading.gif' }">
-    <div class="row justify-content">
-      <div class="col" id="proj">
+    <div class="row">
+      <div class="col col-s" id="proj">
        
         <h2>JavaLearn</h2>
         <lingallery :width="600" :height="400" :items="items" class="m-2"/>
@@ -28,18 +28,15 @@
           JavaLearn helps:
           <ul>    <li>clients learn lectures and take the test remotely;</li>
              <li>teachers to share lectures and evaluate students remotely.</li>
-      </ul> </p>
-     
-      
-        
+      </ul> </p>       
       </div>
-      <div class="col" id="proj">
+      <div class="col col-s" id="proj">
         <h2>Yachting</h2>
         <lingallery :width="600" :height="400" :items="items2" class="m-2" />
         <h3>Used Skills:</h3>
         
       <div class="row p-2">  
-        <div class="col">
+        <div class="col col-s">
         <button type="button" class="btn btn-primary btn-sm m-2">PHP</button></div>
         <div class="col"> <button type="button" class="btn btn-primary btn-sm m-2">Laravel</button></div>
         <div class="col"> <button type="button" class="btn btn-primary btn-sm m-2">JavaScript</button></div>
@@ -58,8 +55,8 @@
       
     </div>
     </div>
-    <div class="row justify-content">
-      <div class="col" id="proj">
+    <div class="row">
+      <div class="col col-s" id="proj">
        
         <h2>FitnessTime</h2>
         <lingallery :width="600" :height="400" :items="items3" class="m-2"/>
@@ -69,12 +66,9 @@
               <div class="col"><button type="button" class="btn btn-primary btn-sm m-2">MySQL</button></div>
     </div>
     <h3>Description:</h3>
-        <p class="text-justify">The topic of the site is the information system of the fitness club. In the framework of this work, an analysis of the existing systems of fitness clubs was carried out, and the metrics used in practice for assessing the activities of fitness clubs were described </p>
-      
-      
-        
+        <p class="text-justify">The topic of the site is the information system of the fitness club. In the framework of this work, an analysis of the existing systems of fitness clubs was carried out, and the metrics used in practice for assessing the activities of fitness clubs were described </p>    
       </div>
-      <div class="col" id="proj">
+      <div class="col col-s" id="proj">
        
     </div>
 
@@ -158,7 +152,7 @@
     
     #proj {
         border: 1px solid lightblue;
-        margin: 10px;
+        margin: 1vh;
     }
     
     .lingalleryContainer {

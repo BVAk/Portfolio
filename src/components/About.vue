@@ -47,10 +47,11 @@
           
           </div>
         </div>
-        <div class="row">
+        <div class="row p-2">
           <div class="col">
           <div class="skills">
-            <div class="row" float="center"><h2>Skills</h2></div>
+            <div class="skills-line">
+            <h2>Skills</h2> </div>
           
           <div class="row">
             <div class="col">PHP</div>
@@ -139,30 +140,50 @@
     }
     
     .skills {
+        left: 0;
+        right: 0;
+        top: 50%;
+        height: 2px;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .skills-line {
+        margin: 0 0 15px;
+        padding: 0 20px;
         background: #4cab96;
         transition: background 0.2s ease-in-out;
         content: '';
         position: relative;
+    }
+    
+    .skills-line h2::before {
+        content: '';
+        position: absolute;
         left: 0;
         right: 0;
         top: 50%;
         height: 2px;
     }
     
-    .skills h2 {
-        display: block;
-        background: #fff;
-        padding: 0;
-        color: #4cab96;
-        font-family: Helvetica;
+    .skills-line h2::after {
+        left: auto;
+        right: -1px;
+    }
+    
+    .skills-line h2 {
+        font-size: 23px;
+        line-height: 28px;
+        display: inline-block;
+        vertical-align: top;
         margin: 0;
-        overflow-y: visible;
-        text-align: center;
-        float: inherit;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        transition: color 0.1s ease-in-out;
+        padding: 0 15px;
+        background: #fff;
+        max-width: 100%;
+        font-weight: 500;
+        position: relative;
+        min-width: 50px;
+        color: #4cab96;
     }
 </style>
