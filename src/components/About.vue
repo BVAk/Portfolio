@@ -51,8 +51,9 @@
           <div class="col">
           <div class="skills">
             <div class="skills-line">
-            <h2>Skills</h2> </div>
-          
+              <div class="skills-element">
+            <h2 class="h2"> <span>Skills</span></h2> </div>
+          </div>
           <div class="row">
             <div class="col">PHP</div>
             <div class="col">Laravel</div>
@@ -150,32 +151,67 @@
     }
     
     .skills-line {
-        margin: 0 0 15px;
-        padding: 0 20px;
-        background: #4cab96;
-        transition: background 0.2s ease-in-out;
-        content: '';
-        position: relative;
+        overflow: hidden;
+        text-align: center;
     }
     
-    .skills-line h2::before {
+    .skills-element {
+        position: relative;
+        margin: 0 0 15px;
+        padding: 0 20px;
+    }
+    
+    .skills-element ::before {
+        transition: background 0.2s ease-in-out;
         content: '';
         position: absolute;
         left: 0;
         right: 0;
         top: 50%;
         height: 2px;
+        background: #4cab96;
     }
     
-    .skills-line h2::after {
+    .skills-element h2::before {
+        position: absolute;
+        top: 0;
+        left: -1px;
+        bottom: 0;
+        width: 15px;
+        background: #fff;
+        height: auto;
+    }
+    
+    .skills-element h2::after {
         left: auto;
         right: -1px;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -1px;
+        bottom: 0;
+        width: 15px;
+        background: #fff;
+        height: auto;
     }
     
-    .skills-line h2 {
+    span {
+        min-height: 28px;
+        display: block;
+        background: #fff;
+        padding: 0;
+        transition: color 0.1s ease-in-out;
+        outline: none;
+        word-wrap: break-word;
+        padding: 3px 0;
+        min-height: 19px;
+        min-width: 10px;
+        display: inline-block;
+    }
+    
+    .h2 {
         font-size: 23px;
         line-height: 28px;
-        display: inline-block;
         vertical-align: top;
         margin: 0;
         padding: 0 15px;
