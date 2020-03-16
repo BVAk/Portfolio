@@ -49,10 +49,7 @@
         </div>
         <div class="row p-2">
           <div class="col">
-          <div class="skills">
-            <div class="skills-line">
-              <div class="skills-element">
-            <h2 class="h2"> <span>Skills</span></h2> </div>
+             <h2 class="h2"> <span>Skills</span></h2> 
           </div>
           <div class="row">
             <div class="col">PHP</div>
@@ -71,10 +68,25 @@
             <div class="col"></div>
           </div>
         </div>
+        <div class="row p-2">
+          <div class="col">
+            <h2 class="h2"> <span>Experience</span></h2> </div>
+          </div>
+          <div class="row">
+            <div class="col"><b>Self-Employed</b><br>Front-end, Back-end Developer<br>09/2017 - present</div>
+            <div class="col"><ul>
+              <li>Developed web applications using PHP framework Laravel, preparing both client’s and administrator’s sides;</li>
+<li>                Organized database for application - MySQL tables;</li>
+<li>            Completed front-end web development utilizing Bootstrap, HTML, CSS, JavaScript, Vue.js;</li>
+<li>            Designed mockups for web pages, filling with useful content and information.</li>
+            </ul></div>
+          
+          </div>
+          
         </div>
-        </div>
+        
       </div>
-      </div>
+      
    
   
 </template>
