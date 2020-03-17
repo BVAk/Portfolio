@@ -82,10 +82,24 @@
             </ul></div>
           
           </div>
+
+          <div class="row p-2">
+            <div class="col">
+              <h2 class="h2"> <span>Education</span></h2> </div>
+            </div>
+            <div class="row">
+              <div class="col"><b>Odessa National Maritime University</b><br>2018 - 2019<br></div>
+              <div class="col"><i>Master’s of Science in Computer Science</i></div>
+            </div>
+            <div class="row">
+              <div class="col"><b>Odessa National Maritime University</b><br>2014 - 2018<br></div>
+              <div class="col"><i>Bachelor’s  of Science in Computer Science</i></div>
+            </div>
+            </div>
           
         </div>
         
-      </div>
+      
       
    
   
