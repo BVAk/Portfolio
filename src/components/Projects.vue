@@ -90,6 +90,18 @@
                     id: '1',
                     src: 'javalearn2.jpg',
                     thumbnail: 'javalearn2.jpg'
+                }, {
+                    id: '2',
+                    src: 'javalearn3.jpg',
+                    thumbnail: 'javalearn3.jpg'
+                }, {
+                    id: '3',
+                    src: 'javalearn4.jpg',
+                    thumbnail: 'javalearn4.jpg'
+                }, {
+                    id: '4',
+                    src: 'javalearn5.jpg',
+                    thumbnail: 'javalearn5.jpg'
                 }],
 
                 items2: [{
