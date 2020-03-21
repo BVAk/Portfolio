@@ -91,19 +91,29 @@
                     src: 'javalearn2.jpg',
                     thumbnail: 'javalearn2.jpg'
                 }],
+
                 items2: [{
                     id: '0',
-                    src: 'yachtingmain.jpg',
-                    thumbnail: 'yachtingmain.jpg'
-                }, {
-                    id: '1',
                     src: 'yachting.jpg',
                     thumbnail: 'yachting.jpg'
                 }, {
-                    id: '2',
+                    id: '1',
                     src: 'yachting2.jpg',
                     thumbnail: 'yachting2.jpg'
+                }, {
+                    id: '2',
+                    src: 'yachting3.jpg',
+                    thumbnail: 'yachting3.jpg'
+                }, {
+                    id: '3',
+                    src: 'yachting4.jpg',
+                    thumbnail: 'yachting4.jpg'
+                }, {
+                    id: '4',
+                    src: 'yachting5.jpg',
+                    thumbnail: 'yachting5.jpg'
                 }],
+
                 items3: [{
                     id: '0',
                     src: 'fitnessmain.jpg',
