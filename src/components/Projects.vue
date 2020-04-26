@@ -67,6 +67,18 @@
             </div>
     <h3>Description:</h3>
         <p class="text-justify">The topic of the site is the information system of the fitness club. In the framework of this work, an analysis of the existing systems of fitness clubs was carried out, and the metrics used in practice for assessing the activities of fitness clubs were described </p>    
+    </div>
+    <div class="col col-s" id="proj">
+       
+        <h2>ChineseLogic</h2>
+        <center><lingallery :width="600" :height="400" :items="items4" class="m-2"/></center>
+          <h3>Used Skills:</h3><div class="row p-2">
+        <div class="col"> <button type="button" class="btn btn-primary btn-sm m-2">Laravel</button></div>
+            <div class="col"> <button type="button" class="btn btn-primary btn-sm m-2">JavaScript</button></div>
+              <div class="col"><button type="button" class="btn btn-primary btn-sm m-2">MySQL</button></div>
+            </div>
+    <h3>Description:</h3>
+        <p class="text-justify">The topic of the site is the information system of the fitness club. In the framework of this work, an analysis of the existing systems of fitness clubs was carried out, and the metrics used in practice for assessing the activities of fitness clubs were described </p>    
     </div>      
 
     </div>
