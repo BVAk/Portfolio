@@ -155,7 +155,8 @@
                     id: '4',
                     src: 'fitnessmain5.jpg',
                     thumbnail: 'fitnessmain5.jpg'
-                }]
+                }],
+                items4: [{}]
 
 
             };
