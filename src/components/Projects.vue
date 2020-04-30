@@ -78,7 +78,7 @@
               <div class="col"><button type="button" class="btn btn-primary btn-sm m-2">MySQL</button></div>
             </div>
     <h3>Description:</h3>
-        <p class="text-justify"> </p>    
+        <p class="text-justify">Platform for studying Chinese. Clear lesson schedule, convenient nformation management. </p>    
     </div>      
 
     </div>
