@@ -79,6 +79,7 @@
             </div>
     <h3>Description:</h3>
         <p class="text-justify">Platform for studying Chinese. Clear lesson schedule, convenient nformation management. </p>    
+        <a href="http:\\chineselogic.com.ua">Link to website</a>
     </div>      
 
     </div>
