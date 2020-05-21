@@ -157,7 +157,19 @@
                     src: 'fitnessmain5.jpg',
                     thumbnail: 'fitnessmain5.jpg'
                 }],
-                items4: [{}]
+                items4: [{
+                    id: '0',
+                    src: 'chinese1.png',
+                    thumbnail: 'chinese1.png'
+                }, {
+                    id: '1',
+                    src: 'chinese2.png',
+                    thumbnail: 'chinese2.png'
+                }, {
+                    id: '2',
+                    src: 'chinese3.png',
+                    thumbnail: 'chinese3.png'
+                }]
 
 
             };
