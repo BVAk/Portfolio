@@ -78,7 +78,7 @@
               <div class="col"><button type="button" class="btn btn-primary btn-sm m-2">MySQL</button></div>
             </div>
     <h3>Description:</h3>
-        <p class="text-justify">Platform for studying Chinese. Clear lesson schedule, convenient nformation management. </p>    
+        <p class="text-justify">This is an online platform, here you can quickly and unobtrusively learn the language spoken in the Middle Kingdom. Clear lesson schedule, convenient information management. </p>    
         <a href="http:\\chineselogic.com.ua">Link to website</a>
     </div>      
 
